@@ -1,1 +1,45 @@
+set autolist
+set autoexpand
+set history=40
+set ignoreeof
+set notify
+set savehist=40
+set filec
+
+setenv XILINXD_LICENSE_FILE 17000@192.168.4.71
+
+#######################
+#Personal setting
+alias cd 'cd \!*;set prompt="%{\e[7;40;37m%}`whoami`@`hostname`: `pwd` [%h%]%{\e[0m%}"\$"";ll  '
+alias cdd   "cd .."
+alias sim "cd /ux/INNOBASE_IM4101_DIPDCROSS/home/cns1063/im4101/rtl/catx/lte/lte/lted/rtl/filelist"
+
+alias cddd  "cd ..;cd .."
+alias cdddd "cd ..;cd ..;cd .."
+alias g     "gvim"
+alias lt    "ll -t"
+alias find "find . -type f -name"
+alias h "history"
+alias cdbgi "cd /ux/BGI_WUTONG_DIPD/users/feiye"
+alias cdobd "cd /ux/Autel_Pluto_DIPD/users/feiye"
+alias pl "bsub -Is -q DIPD_High_Speed -n 1 /usr/bin/perl "
+alias uq 'bsub -Is -q DIPD_High_Speed -n 1 -R "span[hosts=1]" '
+alias make 'bsub -Is -q DIPD_High_Speed -n 1 -R "span[hosts=1]" make'
+#alias verdi 'bsub -Is -q DIPD_Design -R "type==rhel6" /rh/cad/bin/qsy.2010 verdi@2019.06sp2 -sv +v2k '
+alias dc 'bsub -Is -q DIPD_Cross_Department  -n 1  -R "span[hosts=1]" /rh/cadhp/bin/qsy.2010 dc_shell@2016.03sp3'
+alias lcq 'bsub -Is -q DIPD_High_Speed -n 4 -R "span[hosts=1]" "/rh/cadhp/bin/qsy.2010 /ux/cad4/cad/tools/syn/lc_vO-2018.06-SP5/lc/O-2018.06-SP5/bin/lc_shell"'
+alias lc20q 'bsub -Is -q DIPD_High_Speed -n 4 -R "span[hosts=1]" "/rh/cadhp/bin/qsy.2010 /ux/cad4/cad/tools/syn/lc_vR-2020.09-SP4/lc/R-2020.09-SP4/bin/lc_shell"'
+alias ptq 'bsub -Is -q DIPD_High_Speed -n 1 -R "span[hosts=1]" "/rh/cadhp/bin/qsy.2010 pt_shell@2017.12sp3"'
+
+alias vcsq 'bsub -Is -q DIPD_High_Speed -n 1 -R "span[hosts=1]" /rh/cad/bin/qsy.2010 vcs@2012.09 -P /ux/cad3/cad/tools/novasb/novas-200910/share/PLI/vcs/LINUX64/verdi.tab /ux/cad3/cad/tools/novasb/novas-200910/share/PLI/vcs/LINUX64/pli.a '
+
+alias verdi 'bsub -Is -q DIPD_Cross_Department -n 1 -R "span[hosts=1] rusage[mem]=100" /rh/cad/bin/qsy.2010 verdi@2019.06sp2 -sv +v2k '
+#wnj
+
+alias bq  'bsub -Is -q DIPD_Cross_Department -n 1 -R "span[hosts=1] rusage[mem]=100" /rh/cad/bin/qsy.2010'
+
+alias b  'bsub -Is -q DIPD_Cross_Department -n 1 -R "span[hosts=1] rusage[mem]=100"' 
+
+#alias vivado '/ux/Tools/cad/Xilinx_Vivado/Vivado/2016.3/Vivado/2016.3/bin/vivado'
+alias vivado 'bsub -Is -q DIPD_Cross_Department /rh/cad/bin/qsy.2010 /ux/other2/cad/Xilinx/Xilinx_Vivado_SDK_2018.1_0405_1/Vivado/2018.1/bin/vivado &'
 
