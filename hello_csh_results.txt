@@ -1,0 +1,152 @@
+hello world
+/home/cns1063
+***********************./hello.sh study***********
+***********************$0 study***********
+./hello.sh
+name of this script: ./hello.sh
+1st input parameter: 3
+2nd input parameter: 6
+***************the next line output the num of input parameters in this script*****
+num of param: 3
+***************$* study**********
+ param: 3 6 ltec_sub.ini
+**************************zero pp************************************
+3
+1st input param: 3
+as
+**************************zero************************************
+/ux/INNOBASE_IM4101_DIPDCROSS/home/cns1063/shell_study
+the original script location is: /ux/INNOBASE_IM4101_DIPDCROSS/home/cns1063/shell_study
+curdir: .; prjdir: /ux/INNOBASE_IM4101_DIPDCROSS/home
+analysis directory:/ux/INNOBASE_IM4101_DIPDCROSS/home/cns1063/shell_study
+analysis directory2:/ux/INNOBASE_IM4101_DIPDCROSS/home
+curdir: .; prjdir: /ux/INNOBASE_IM4101_DIPDCROSS/home
+**************************1st************************************
+1
+set use set
+"hello wrold"; pwd
+1+2
+**********************2nd****************************************
+**********************3rd****************************************
+**************************************************************
+10
+13
+0
+********************************usage***********************************************
+progress end
+***********************date usage study (begin)******************************
+Thu Jul 28 16:48:32 CST 2022
+the real time is: Thu Jul 28 16:48:32 CST 2022
+2022-07-28-16-16:48:31
+2022-07-28-17-17:48:31
+***********************date usage study (end)******************************
+*******************dirname command and pwd study***********************
+the script location1 is : .
+the script location2 is : 
+the script location3 is : /ux/INNOBASE_IM4101_DIPDCROSS/home
+/ux/INNOBASE_IM4101_DIPDCROSS/home
+the current directory is: /ux/INNOBASE_IM4101_DIPDCROSS/home
+*******************change directory study***********************
+/ux/INNOBASE_IM4101_DIPDCROSS
+the current folder location is: /ux/INNOBASE_IM4101_DIPDCROSS
+the current working directory is: /ux/INNOBASE_IM4101_DIPDCROSS/home/cns1063/shell_study
+*********************script_location2********************
+./cns1063/shell_study
+*************************cns*******************
+./cns1063/shell_study/..
+the current directory(creat folder): /ux/INNOBASE_IM4101_DIPDCROSS/home/cns1063/shell_study_folder
+back to the upper folder for one layer: /ux/INNOBASE_IM4101_DIPDCROSS/home/cns1063
+back to the inner folder for one layer: /ux/INNOBASE_IM4101_DIPDCROSS/home/cns1063/shell_study
+*******************copy study***********************
+/ux/INNOBASE_IM4101_DIPDCROSS
+back to the upper folder for one layer: /ux/INNOBASE_IM4101_DIPDCROSS/home/cns1063/shell_study
+folder2
+******************************data array usage***********************
+a b 3
+a
+******************************foreach usage (begin)***********************
+/ux/INNOBASE_IM4101_DIPDCROSS/home/cns1063/shell_study
+the current directory is: /ux/INNOBASE_IM4101_DIPDCROSS/home/cns1063/shell_study
+a
+b
+3
+a
+current directory is /ux/INNOBASE_IM4101_DIPDCROSS/home/cns1063/shell_study
+b
+current directory is /ux/INNOBASE_IM4101_DIPDCROSS/home/cns1063/shell_study
+c
+current directory is /ux/INNOBASE_IM4101_DIPDCROSS/home/cns1063/shell_study
+d
+current directory is /ux/INNOBASE_IM4101_DIPDCROSS/home/cns1063/shell_study
+the 0 element in test3 is e
+the 1 element in test3 is f
+the 2 element in test3 is g
+the 3 element in test3 is h
+******************************foreach usage (end)*******************************************
+******************************if-else usage (begin)*****************************************
+variable index1 is not 1
+the variable index1 has been defined
+*****************************if-else usage (end)*******************************************
+***********************set and shell-command joint usage (begin)************************************
+the current directory2: /ux/INNOBASE_IM4101_DIPDCROSS/home/cns1063/shell_study
+the current directory3: `pwd`
+hello world2;/ux/INNOBASE_IM4101_DIPDCROSS/home/cns1063/shell_study;/home/cns1063;girl
+***********************set and shell-command joint usage (end)************************************
+/ux/INNOBASE_IM4101_DIPDCROSS/home/cns1063/shell_study
+**********************script learning***********************************
+lted
+d
+**********************absolute and relative path learning (begin)***********************************
+./cns1063/shell_study/ltec_sub.ini
+the directory:./cns1063/shell_study/aa.txt
+report_file2_location: /ux/INNOBASE_IM4101_DIPDCROSS/home/cns1063/shell_study
+**********************absolute and relative path learning (end)***********************************
+**********************pattern match learning (begin)***********************************
+match
+**********************pattern match learning (end)***********************************
+module is: lted
+fpga is :fpga
+runall is :0
+the case_num is 1
+sub_test is HARQ (1)
+test_case is  (1)
+test_case is 
+key_simop: +sub_case=HARQ +test_case=
+./run.csh lted fpga  +sub_case=HARQ +test_case=
+**********************while learning (begin)***********************************
+biubiubiu
+j : 2
+biubiubiu
+j : 3
+biubiubiu
+j : 4
+biubiubiu
+j : 5
+biubiubiu
+j : 6
+biubiubiu
+j : 7
+**********************while learning (end)***********************************
+Catx: Check 3 simulation result.
+**********************diff learning (begin)***********************************
+**************************argv study ***************************************
+1st input param: 3
+the total input parameters: 3
+3 6 ltec_sub.ini
+3 6 ltec_sub.ini
+3 6
+6 ltec_sub.ini
+**************************regularization comparison study (begin)***************************************
+regularization comparison success:ltec_module2.ini matched lte?_*.ini
+ltec
+ltex: ltec (run_arg:ltec)
+**************************regularization comparison study (end)***************************************
+**************************script invoke inner script study ***************************************
+/ux/INNOBASE_IM4101_DIPDCROSS/home/cns1063/shell_study
+the script location3 is : /ux/INNOBASE_IM4101_DIPDCROSS/home/cns1063/shell_study
+how to invoked a inner script within a script
+**************************'in C-shell: '|' and '&&' and '||'  '***************************************
+**************************'in C-shell: '|' is the pipeline command '***************************************
+**************************'in C-shell: '&& ' ***************************************
+Simulation not PASS.
+test2.dat not empty, which means the results not match, so simulation not pass.
